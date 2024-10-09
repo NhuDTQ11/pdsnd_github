@@ -1,17 +1,21 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bike Share Data Analysis
 
-### Date created
-Include the date you created this project and README file.
+### Date Created
+October 9, 2024
 
 ### Project Title
-Replace the Project Title
+Bike Share Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. Additionally, you will create a script that takes in raw input to provide an interactive experience in the terminal, presenting these statistics to the user.
 
-### Files used
-Include the files used
+### Files Used
+- `chicago.csv`: Data for Chicago bike share system.
+- `new_york_city.csv`: Data for New York City bike share system.
+- `washington.csv`: Data for Washington bike share system.
+- `bikeshare.py`: Main Python script that contains the code for data analysis and user interaction.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Special thanks to [Udacity](https://www.udacity.com/) for providing the data and inspiration for this project. Additional thanks to various blog posts and repositories that helped guide the development of this project, including:
+- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+- [NumPy Documentation](https://numpy.org/doc/stable/)
