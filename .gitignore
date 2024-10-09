@@ -1,1 +1,67 @@
 .github/**
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+egg-info/
+.installed.cfg
+*.egg-info/
+MANIFEST
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pyre type checker
+.pyre/
+
+# coverage
+.coverage
+coverage.xml
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# logs
+*.log
+
+# CSV files
+*.csv
+
+# Others
+*.pot
+*.pyc
