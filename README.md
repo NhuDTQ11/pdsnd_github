@@ -7,15 +7,23 @@ October 9, 2024
 Bike Share Data Analysis
 
 ### Description
-In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. Additionally, you will create a script that takes in raw input to provide an interactive experience in the terminal, presenting these statistics to the user.
+This project utilizes Python to analyze bike share data from three major cities in the United States: Chicago, New York City, and Washington. The goal is to explore the data and answer various questions by calculating descriptive statistics. Users will interact with a terminal-based script that allows them to input parameters and receive insights about bike share usage in these cities.
+
+### Features
+- **Data Exploration**: Load and explore bike share datasets from Chicago, New York City, and Washington.
+- **Descriptive Statistics**: Calculate and display statistics such as trip duration, most popular start and end stations, and user demographics.
+- **Interactive User Experience**: A terminal-based interface for users to input their preferences and get customized statistics.
+- **City-Specific Analysis**: Ability to analyze data for each city individually or compare statistics across cities.
+- **Error Handling**: Manage user input errors to ensure a smooth experience.
 
 ### Files Used
-- `chicago.csv`: Data for Chicago bike share system.
-- `new_york_city.csv`: Data for New York City bike share system.
-- `washington.csv`: Data for Washington bike share system.
-- `bikeshare.py`: Main Python script that contains the code for data analysis and user interaction.
+- `chicago.csv`: Contains bike share data for Chicago.
+- `new_york_city.csv`: Contains bike share data for New York City.
+- `washington.csv`: Contains bike share data for Washington.
+- `bikeshare.py`: The main Python script for data analysis and user interaction.
 
 ### Credits
-Special thanks to [Udacity](https://www.udacity.com/) for providing the data and inspiration for this project. Additional thanks to various blog posts and repositories that helped guide the development of this project, including:
+This project was inspired by resources from [Udacity](https://www.udacity.com/). Additional resources include:
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
 - [NumPy Documentation](https://numpy.org/doc/stable/)
+- Various blog posts and tutorials related to Python data analysis.
